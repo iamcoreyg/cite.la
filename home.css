@@ -82,7 +82,7 @@ p {
 }
 
 hr.short {
-	    border: none;
+	border: none;
     border-bottom: 5px solid #252527;
     margin: 75px 0 45px;
     width: 20%;
@@ -111,6 +111,10 @@ h3 {
 	display: inline-block;
 	width: calc(50% - 10px);
 	vertical-align: top;
+}
+
+.highlight {
+	color: #AEAEC2;
 }
 
 .highlight span {
