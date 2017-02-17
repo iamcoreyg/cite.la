@@ -1,0 +1,141 @@
+html {
+    margin: 0;
+    min-height: 100%;
+}
+body {
+    margin: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: "Roboto", -apple-system, helvetica, sans-serif;
+    font-size: 15px;
+    color: #383945;
+    background-color: #ffffff;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+	width: 95%;
+	max-width: 960px;
+	margin: 30px auto;
+}
+
+header {
+	text-align: center;
+}
+
+#logo {
+	width: 200px;
+}
+
+p {
+	font-size: 14pt;
+    line-height: 1.4;
+}
+
+#big {
+	background: url('images/background.jpg');
+	background-size: cover;
+	height: 40vh;
+	display: flex;
+}
+
+.fa {
+	background: #0e43c5;
+    color: #fff;
+    display: inline-block;
+    margin-right: 5px;
+    padding: 7px;
+    border-radius: 2px;
+}
+
+.primary-btn, .primary-btn:visited {
+	background: #0e43c5;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 14pt;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.25);
+    transition: all .2s;
+    display: inline-block;
+}
+
+.primary-btn:hover {
+	background: #4472e2;
+	transform: translateY(-4px);
+	-webkit-transform: translateY(-4px);
+}
+
+.small-btn {
+	font-size: 12pt;
+	padding: 5px 10px;
+}
+
+#big h1 {
+	margin: auto;
+	    letter-spacing: 2px;
+    font-size: 40pt;
+    padding: 20px;
+    font-weight: 300;
+}
+
+hr.short {
+	    border: none;
+    border-bottom: 5px solid #252527;
+    margin: 75px 0 45px;
+    width: 20%;
+}
+
+h1, h2, h3 {
+	color: #252527;
+	margin-top: 30px;
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+}
+
+h1 {
+	font-size: 18pt;
+}
+
+h2 {
+	font-size: 14pt;
+}
+
+h3 {
+	font-size: 12pt;
+}
+
+.half {
+	display: inline-block;
+	width: calc(50% - 10px);
+	vertical-align: top;
+}
+
+.highlight span {
+	display: inline-block;
+	border-bottom: 2px solid #0e43c5;
+	color: #0e43c5;
+}
+
+#headshot {
+	display: inline-block;
+	width: 155px;
+    border-radius: 50%;
+}
+
+#headshot-info {
+	display: inline-block;
+    width: calc(100% - 200px);
+    vertical-align: top;
+    margin-top: 8%;
+    margin-left: 10px;
+    font-size: 12pt;
+}
+
+@media(max-width: 768px) {
+	.half {
+		width: 100%;
+	}
+}
