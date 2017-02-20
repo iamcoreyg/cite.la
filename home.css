@@ -128,10 +128,15 @@ h3 {
     color: #AEAEC2;
 }
 
-.highlight span {
+.highlight i {
     display: inline-block;
     border-bottom: 2px solid #0e43c5;
     color: #0e43c5;
+    font-style: normal
+}
+
+.highlight span {
+display: inline-block;
 }
 
 #headshot {
@@ -157,4 +162,9 @@ h3 {
     .wrapper {
         width: 86%;
     }
+
+	.highlight {
+		color: #AEAEC2;
+	}
 }
+
